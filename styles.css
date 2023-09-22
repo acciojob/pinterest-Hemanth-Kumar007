@@ -3,4 +3,31 @@
 #image{
 	height: 200px;
 	width: 400px;
+	object-fit: cover;
+}
+
+.hero{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#subsec{
+/* 	display: flex;
+	flex-direction: column; */
+	text-align: center;
+}
+
+#btn{
+	background-color: red;
+	color: white;
+	border-radius: 5px;
+	height: 40px;
+	padding: 10px;
+}
+
+#btn:hover{
+	background-color: black;
+	cursor: pointer;
 }
